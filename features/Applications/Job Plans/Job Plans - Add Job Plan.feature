@@ -4,6 +4,8 @@ Feature: Job Plans - Add Job Plan
     
   Given I login to Maximo as Administrator
 
+    # scenario start
+    
    Then I go to the Planning / Job Plans application
     And I click the 'New Job Plan' toolbar button
     And I record a random 10 digit number as [Job Plan]
@@ -15,5 +17,7 @@ Feature: Job Plans - Add Job Plan
     And I select 'Active' in the dropdown list for the 'New Status' field
     And I click the OK button
     And I see the flash message 'status changed to ACTIVE'
+    
+    # scenario end
     
     And I logout

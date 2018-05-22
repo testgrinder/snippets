@@ -1,8 +1,11 @@
-Feature: Item Master - Add Item to Storeroom
+Feature: Item Master - Add New Item to Storeroom
   
-  Scenario: Item Master - Add Item to Storeroom
+  Scenario: Item Master - Add New Item to Storeroom
     
   Given I login to Maximo as Administrator
+    
+    # scenario start
+    
     And I go to the Inventory / Item Master application
     And I click the 'New Item' toolbar button
     And I record a unique 10 digit number as [Item]
@@ -21,5 +24,7 @@ Feature: Item Master - Add Item to Storeroom
     And I click the OK button
     And I see the flash message 'Items have been added to the storeroom'
 
+    # scenario end
+    
     And I logout
     

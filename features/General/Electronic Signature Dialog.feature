@@ -14,11 +14,15 @@ Feature: Electronic Signature Dialog
     And I enter 'OPERATING' in the Type field
     And I click the 'Save Location' toolbar button
     
+    # scenario start
+    
    Then I see the 'Electronic Signature Authentication' dialog
     And I enter the password for the Administrator role in the 'Password' field
     And I enter 'testgrinder test' in the 'Reason For Change' field
     And I click the OK button
     And I see the flash message 'Record has been saved'
 
+    # scenario start
+    
     And I logout
     

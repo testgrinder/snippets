@@ -5,6 +5,8 @@ Feature: Advanced Search
   Given I login to Maximo as Administrator
     And I go to the Administration / Resources / People application
 
+    # scenario start
+    
     And I click menu bar button 'Advanced Search'
     # use !=~null~ to search for records with not empty value in the field
     And I enter '!=~null~' in the 'Last Name' field
@@ -13,5 +15,7 @@ Feature: Advanced Search
     # user prefix = to perform the exact search
     And I enter '=ACTIVE' in the 'Status' field
     And I click the Find button
+
+    # scenario end
 
     And I logout
