@@ -4,7 +4,7 @@ Feature: Job Plans - Add Job Plan
     
   Given I login to Maximo as Administrator
 
-    # scenario start
+    # snippet start
     
    Then I go to the Planning / Job Plans application
     And I click the 'New Job Plan' toolbar button
@@ -18,6 +18,6 @@ Feature: Job Plans - Add Job Plan
     And I click the OK button
     And I see the flash message 'status changed to ACTIVE'
     
-    # scenario end
+    # snippet end
     
     And I logout

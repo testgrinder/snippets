@@ -4,7 +4,7 @@ Feature: Item Master - Add New Item to Storeroom
     
   Given I login to Maximo as Administrator
     
-    # scenario start
+    # snippet start
     
     And I go to the Inventory / Item Master application
     And I click the 'New Item' toolbar button
@@ -24,7 +24,7 @@ Feature: Item Master - Add New Item to Storeroom
     And I click the OK button
     And I see the flash message 'Items have been added to the storeroom'
 
-    # scenario end
+    # snippet end
     
     And I logout
     

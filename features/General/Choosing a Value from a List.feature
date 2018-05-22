@@ -11,7 +11,7 @@ Feature: Choosing a Value from a List
     And I go to the Work Orders / Work Order Tracking application
     And I click the 'New Work Order' toolbar button
 
-    # scenario start
+    # snippet start
     
     # this snippet is for fields that show the value list as soon as you click on their detail menu icon
     And I activate the detail menu for the 'Work Type' field
@@ -28,6 +28,6 @@ Feature: Choosing a Value from a List
     And I choose the first row in the unlabelled table
     And I see the value 'BOILER' in the 'Location' field
 
-    # scenario start
+    # snippet start
     
     And I logout

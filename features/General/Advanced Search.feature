@@ -5,7 +5,7 @@ Feature: Advanced Search
   Given I login to Maximo as Administrator
     And I go to the Administration / Resources / People application
 
-    # scenario start
+    # snippet start
     
     And I click menu bar button 'Advanced Search'
     # use !=~null~ to search for records with not empty value in the field
@@ -16,6 +16,6 @@ Feature: Advanced Search
     And I enter '=ACTIVE' in the 'Status' field
     And I click the Find button
 
-    # scenario end
+    # snippet end
 
     And I logout

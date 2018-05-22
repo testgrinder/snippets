@@ -14,7 +14,7 @@ Feature: Electronic Signature Dialog
     And I enter 'OPERATING' in the Type field
     And I click the 'Save Location' toolbar button
     
-    # scenario start
+    # snippet start
     
    Then I see the 'Electronic Signature Authentication' dialog
     And I enter the password for the Administrator role in the 'Password' field
@@ -22,7 +22,7 @@ Feature: Electronic Signature Dialog
     And I click the OK button
     And I see the flash message 'Record has been saved'
 
-    # scenario start
+    # snippet start
     
     And I logout
     
