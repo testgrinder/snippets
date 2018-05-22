@@ -28,6 +28,6 @@ Feature: Choosing a Value from a List
     And I choose the first row in the unlabelled table
     And I see the value 'BOILER' in the 'Location' field
 
-    # snippet start
+    # snippet end
     
     And I logout

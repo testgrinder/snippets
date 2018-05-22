@@ -22,7 +22,7 @@ Feature: Electronic Signature Dialog
     And I click the OK button
     And I see the flash message 'Record has been saved'
 
-    # snippet start
+    # snippet end
     
     And I logout
     
