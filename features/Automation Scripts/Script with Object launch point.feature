@@ -22,7 +22,7 @@ Feature: Script with Object launch point
       And I check off the 'Initialize' checkbox in the Events section
       And I click the Next button
       And I enter 'MY_SCRIPT' in the Script field
-      And I enter 'My automstion script' in the description field of the Script field
+      And I enter 'My automation script' in the description field of the Script field
       And I click the Next button
       And I enter the following value in the 'Source Code' field
 """
