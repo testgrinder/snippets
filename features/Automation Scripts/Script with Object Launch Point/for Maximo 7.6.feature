@@ -1,6 +1,6 @@
-Feature: Script with Object launch point
+Feature: Script with Object launch point, Maximo 7.6
   
-  Scenario: Script with Object launch point
+  Scenario: Script with Object launch point, Maximo 7.6
     
     Given I login to Maximo as Administrator
     
@@ -8,7 +8,7 @@ Feature: Script with Object launch point
     
     Given I go to the System Configuration / Platform Configuration / Automation Scripts application
      When I select action 'Create / Script with Object Launch Point'
-      And I see the 'Automation Scripts' dialog
+      And I see the 'Create Script with Object Launch Point : Step 1 of 3' dialog
       And I enter 'MY_SCRIPT' in the 'Launch Point' field
       And I enter 'My automation script launch point' in the description field of the 'Launch Point' field
       
@@ -19,7 +19,7 @@ Feature: Script with Object launch point
       And I see the value 'WORKORDER' in the 'Object' field
   
       And I check off the 'Active' checkbox
-      And I check off the 'Initialize' checkbox in the Events section
+      And I click the 'Validate Application' radio button
       And I click the Next button
       And I enter 'MY_SCRIPT' in the Script field
       And I enter 'My automation script' in the description field of the Script field
