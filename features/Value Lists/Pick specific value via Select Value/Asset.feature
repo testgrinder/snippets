@@ -10,7 +10,7 @@ Feature: Pick specific value via Select Value - Asset
   
       # snippet start
       
-          # Location
+          # Asset
           # TODO: substitute ASSET below with the asset you need
      When I activate the detail menu for the Asset field
       And I click menu item 'Select Value'
