@@ -3,7 +3,7 @@ Feature: Electronic Signature Dialog
   Scenario: Electronic Signature Dialog
     
     This scenario assumes that the description field of the Location object requires eSignature on change.
-    It shows how to interact with the eSignature dialog, and specifically how to securily enter the password.
+    It shows how to interact with the eSignature dialog, and specifically how to securely enter the password.
     
     Given I login to Maximo as Administrator
       And I go to the Assets / Locations application
